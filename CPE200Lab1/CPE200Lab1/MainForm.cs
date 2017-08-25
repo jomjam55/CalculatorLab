@@ -34,6 +34,7 @@ namespace CPE200Lab1
             {
                 case "+":
                     return (Convert.ToDouble(firstOperand) + Convert.ToDouble(secondOperand)).ToString();
+                    
                 case "-":
                     return (Convert.ToDouble(firstOperand) - Convert.ToDouble(secondOperand)).ToString();
                 case "X":
@@ -119,8 +120,10 @@ namespace CPE200Lab1
                 case "-":
                 case "X":
                 case "÷":
+
                     firstOperand = lblDisplay.Text;
                     isAfterOperater = true;
+                    
                     break;
                 case "%":
                     // your code here
